@@ -1,0 +1,19 @@
+.extra-info {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.extra-info h2 {
+	margin: 15px 0 7px 0 !important;
+}
+
+.extra-info-icon {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+
+	color: #2c9424;
+	font-size: 4rem;
+}

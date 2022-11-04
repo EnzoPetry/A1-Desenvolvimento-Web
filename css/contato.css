@@ -1,0 +1,58 @@
+.contato .content {
+	margin-top: 1rem;
+	height: 1150px;
+	background-color: #dfdfdf;
+	background-image: url("../src/back-img-02.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.contato .overlay {
+	height: 1150px;
+	width: 100%;
+	background-image: linear-gradient(to right, #2c9424, black);
+	opacity: 70%;
+}
+
+.contato .card {
+	position: relative;
+	top: -1050px;
+	padding: 1.5rem;
+}
+
+.contato .card-body {
+	text-align: justify;
+}
+
+.contato .card-body .img {
+	margin: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.contato-grid img {
+	width: 550px;
+	height: 300px;
+
+	filter: grayscale(90%);
+}
+
+.contato-grid .mb-2rem {
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 890px) {
+	.contato .content {
+		height: 1300px;
+	}
+
+	.contato .overlay {
+		height: 1300px;
+	}
+
+	.contato .card {
+		top: -1250px;
+	}
+}

@@ -1,0 +1,60 @@
+body {
+	background-color: #dfdfdf !important;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+	font-family: montserratMed, Helvetica, sans-serif, Arial !important;
+}
+
+h2 {
+	font-family: montserratBlack, Helvetica, sans-serif, Arial !important;
+}
+
+p {
+	font-family: quicksandBook, Helvetica, sans-serif, Arial !important;
+}
+
+.color1 {
+	color: #ce2325
+}
+
+.color2 {
+	color: #dfdfdf
+}
+
+.color3 {
+	color: #2c9424
+}
+
+.color4 {
+	color: #5fac5c
+}
+
+.color5 {
+	color: #b0caaa
+}
+
+.color5 {
+	color: #343a40
+}
+
+@font-face {
+	font-family: montserratMed;
+	src: url("../fonts/Montserrat-Medium.otf");
+}
+
+@font-face {
+	font-family: montserratBlack;
+	src: url("../fonts/Montserrat-Black.otf");
+}
+
+@font-face {
+	font-family: montserratRegular;
+	src: url("../fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+	font-family: quicksandBook;
+	src: url("../fonts/Quicksand_Book.otf");
+}
